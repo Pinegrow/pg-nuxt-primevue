@@ -98,7 +98,6 @@ export default defineNuxtConfig({
   // },
 
   css: [
-    '@/assets/css/global.css', // Used for global styles.
     '@/assets/css/main.css', // Used for global styles.
     'lite-youtube-embed/src/lite-yt-embed.css',
   ],
