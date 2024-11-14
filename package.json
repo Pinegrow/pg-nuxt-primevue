@@ -41,6 +41,7 @@
     "@nuxtjs/html-validator": "^1.8.2",
     "@nuxtjs/seo": "^2.0.0-rc.19",
     "@pinegrow/nuxt-module": "^3.0.60",
+    "@pinegrow/primevue-plugin": "^3.0.2-beta.0",
     "@primevue/nuxt-module": "^4.2.1",
     "@resvg/resvg-js": "^2.5.0",
     "@types/node": "^22.5.1",
