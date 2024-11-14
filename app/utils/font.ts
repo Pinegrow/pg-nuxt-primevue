@@ -1,5 +1,4 @@
-const pg_font_urls =
-  'https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900|Kalam:300,400,700&display=swap'
+import { pg_font_urls } from '../../themes/pg-primevue/tokens.mjs'
 
 const getFontsWithFallback = (pg_fonts) => {
   const pg_fonts_with_fallback = { ...pg_fonts }

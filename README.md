@@ -1,8 +1,8 @@
-# Vue Designer Nuxt CSS - Quick start template
+# Vue Designer Nuxt PrimeVue - Quick start template
 
-This is a starter template that pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) and other goodies for Vue Designer.
+This is a starter template that pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module), [PrimeVue](https://primevue.org/introduction/), [Pinegrow PrimeVue Plugin](https://www.npmjs.com/package/@pinegrow/primevue-plugin) and other goodies for Vue Designer.
 
-Demo - https://pg-nuxt-css.netlify.app/
+Demo - https://pg-nuxt-primevue.netlify.app/
 
 ## Vue Designer
 
@@ -25,8 +25,8 @@ Clean code 😃, No lock-in - You are in control of your projects and developmen
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx giget@latest gh:pinegrow/pg-nuxt my-nuxt-app #project-name
-cd my-nuxt-app
+npx giget@latest gh:pinegrow/pg-nuxt-primevue my-nuxt-primevue-app #project-name
+cd my-nuxt-primevue-app
 npm install #or use pnpm
 ```
 
@@ -35,8 +35,8 @@ npm install #or use pnpm
 If you prefer a minimal template (a single empty home page) instead,
 
 ```bash
-npx giget@latest gh:pinegrow/pg-nuxt#minimal my-nuxt-app #project-name
-cd my-nuxt-app
+npx giget@latest gh:pinegrow/pg-nuxt-primevue#minimal my-nuxt-primevue-app #project-name
+cd my-nuxt-primevue-app
 npm install #or use pnpm
 ```
 
@@ -80,7 +80,7 @@ npm run unlighthouse # Uses npx unlighthouse from https://unlighthouse.dev/ to r
 ### Deploy to Netlify
 
 You can deploy this repo as a site on your own to explore and experiment with, by clicking this button.
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-nuxt)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Pinegrow/pg-nuxt-primevue)
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
@@ -95,7 +95,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ### UI Frameworks
 
-- [CSS](https://vuejs.org/api/sfc-css-features.html) - Scoped CSS in Vue Single File Component (SFC).
+- [PrimeVue](https://primevue.org/introduction/) - PrimeVue is a complete UI suite for Vue.js consisting of a rich set of UI components, icons, blocks, and application templates.
 
 ### File-based CMS (markdown)
 
@@ -108,6 +108,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ### Modules/Plugins
 
 - [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) - enables you to live-design your Vue single-file components visually in Vue Designer.
+- [Pinegrow Primevue Plugin](https://www.npmjs.com/package/@pinegrow/primevue-plugin) - via Design Panel, enables theme customization (optional) and visual controls for Primevue utilities. Note: This is an addon that's licensed separately to Pinegrow apps (like Vue Designer).
 - [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - 🍍 [Pinia](https://pinia.vuejs.org/ssr/nuxt.html) stores for global state management via the `@pinia/nuxt module`. Its light-weight, type-safe, extensible, modular with vue-devtools support.
 - [VeeValidate](https://vee-validate.logaretm.com/v4/integrations/nuxt/) takes care of value tracking, validation, errors, submissions and more.

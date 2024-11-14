@@ -2,6 +2,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { resolve } from 'pathe'
 import presetIcons from '@unocss/preset-icons'
 import { bundledLanguages } from 'shiki'
+import primeVueConfig from './primevue.config'
 
 import site from './site'
 const {
@@ -17,7 +18,7 @@ const {
 
 export default defineNuxtConfig({
   extends: [
-    './app-nuxt-layer', // NavBar and Footer components
+    './app-nuxt-primevue-layer', // NavBar and Footer components
   ],
   // ssr: false,
   // devtools: { enabled: false }, // enabled by default, disable when using standalone Vue devtools
@@ -57,6 +58,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@pinegrow/nuxt-module',
+    '@primevue/nuxt-module',
     '@unocss/nuxt',
     '@nuxt/content',
     '@vueuse/nuxt',
@@ -96,9 +98,14 @@ export default defineNuxtConfig({
   // },
 
   css: [
+    '@/assets/css/global.css', // Used for global styles.
     '@/assets/css/main.css', // Used for global styles.
     'lite-youtube-embed/src/lite-yt-embed.css',
   ],
+
+  primevue: {
+    options: primeVueConfig,
+  },
 
   image: {
     // dir: 'assets/images', // doesn't always work, for eg, with vercel etc, https://github.com/nuxt/image/issues/1006. Therefore, we are storing the images in public folder, to have them not processed by vite, but rather by nuxt-image module on-demand
@@ -290,6 +297,14 @@ export default defineNuxtConfig({
     liveDesigner: {
       iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names names
       devtoolsKey: 'devtoolsKey', // see plugins/devtools.client.ts
+      primevue: {
+        /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
+        configPath: 'primevue.config.ts', // or file where primevue is created
+        // themePath: false, // Set to false so that Design Panel is not used
+        // utilities: false,
+        // restartOnConfigUpdate: true,
+        restartOnThemeUpdate: true,
+      },
       // plugins: [
       //   {
       //     name: 'My Awesome Lib 3.0',

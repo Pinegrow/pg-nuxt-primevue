@@ -4,11 +4,11 @@
 
 export default {
   name: 'Vue Designer',
-  description: 'Vue Designer Nuxt with CSS - Quick start template',
+  description: 'Vue Designer Nuxt PrimeVue - Quick start template',
   logo: 'i-vscode-icons:file-type-coffeelint',
   author: 'Pinegrow',
-  url: 'https://pg-nuxt-css.netlify.app',
-  github: 'https://github.com/pinegrow/pg-nuxt',
+  url: 'https://pg-nuxt-primevue.netlify.app',
+  github: 'https://github.com/pinegrow/pg-nuxt-primevue',
   defaultLocale: 'en', // default
   identity: {
     type: 'Organization',
@@ -16,5 +16,12 @@ export default {
   twitter: '@vuedesigner',
   trailingSlash: false, // default
   titleSeparator: '|', // default
-  nav: [{ text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' }],
+  nav: [
+    {
+      text: 'Home',
+      link: '/',
+      type: 'primary',
+      icon: 'i-mdi-home',
+    },
+  ],
 }

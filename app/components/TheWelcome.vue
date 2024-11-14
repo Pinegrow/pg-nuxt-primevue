@@ -78,7 +78,7 @@
             This is a simple template<NuxtLink
               target="_blank"
               rel="noopener noreferrer"
-              to="https://github.com/pinegrow/pg-nuxt"
+              to="https://github.com/pinegrow/pg-nuxt-primevue"
             >
               <BaseIcon
                 tag="span"
@@ -99,6 +99,13 @@
               to="https://www.npmjs.com/package/@pinegrow/nuxt-module"
               class="bg-gray-100 dark:bg-white/10 rounded font-mono p-1 font-bold"
               >Pinegrow Nuxt Module</NuxtLink
+            >,
+            <NuxtLink
+              target="_blank"
+              rel="noopener noreferrer"
+              to="https://www.npmjs.com/package/@pinegrow/primevue-plugin"
+              class="bg-gray-100 dark:bg-white/10 rounded font-mono p-1 font-bold"
+              >Pinegrow PrimeVue Plugin</NuxtLink
             >
             and other goodies for your drag & drop experience.
           </p>
@@ -1090,7 +1097,7 @@
   a,
   .green {
     text-decoration: none;
-    color: hsla(160, 100%, 37%, 1);
+    color: var(--color-accent);
     transition: 0.4s;
   }
 
