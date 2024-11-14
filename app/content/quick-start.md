@@ -108,7 +108,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ### Modules/Plugins
 
 - [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) - enables you to live-design your Vue single-file components visually in Vue Designer.
-- [Pinegrow Primevue Plugin](https://www.npmjs.com/package/@pinegrow/primevue-plugin) - via Design Panel, enables theme customization (optional) and visual controls for Primevue utilities. Note: This is an addon that's licensed separately to Pinegrow apps (like Vue Designer).
+- [Pinegrow PrimeVue Plugin](https://www.npmjs.com/package/@pinegrow/primevue-plugin) - via Design Panel, enables theme customization (optional) and visual controls for Primevue utilities. Note: This is an addon that's licensed separately to Pinegrow apps (like Vue Designer).
 - [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - 🍍 [Pinia](https://pinia.vuejs.org/ssr/nuxt.html) stores for global state management via the `@pinia/nuxt module`. Its light-weight, type-safe, extensible, modular with vue-devtools support.
 - [VeeValidate](https://vee-validate.logaretm.com/v4/integrations/nuxt/) takes care of value tracking, validation, errors, submissions and more.
